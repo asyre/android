@@ -1,6 +1,5 @@
 package ru.ifmo.lab3_derbenyova;
 
-import android.content.Context;
 import android.media.MediaPlayer;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +9,6 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -19,7 +17,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ImageHolder> {
 
     private final List<Image> images;
 
-    public ListAdapter(List<Image> images) {
+    ListAdapter(List<Image> images) {
         this.images = images;
     }
 
