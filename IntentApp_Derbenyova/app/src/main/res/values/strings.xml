@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntentApp_Derbenyova</string>
+    <string name="send_mail_value">Send mail</string>
+    <string name="view_map_value">View map</string>
+    <string name="call_value">Call</string>
+    <string name="view_web_pages_value">View web pages</string>
+</resources>
