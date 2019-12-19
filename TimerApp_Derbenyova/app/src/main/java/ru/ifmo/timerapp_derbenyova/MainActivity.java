@@ -1,18 +1,18 @@
 package ru.ifmo.timerapp_derbenyova;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.SystemClock;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private long seconds;
     private boolean isRunning;
+    //    Handler - это механизм, который позволяет работать с очередью сообщений.
+//    Он привязан к конкретному потоку (thread) и работает с его очередью.
     private Handler customHandler;
     private TextView textView;
 
@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 + String.format("%02d", seconds % 60));
     }
 
+    //    Bundle необходим для временного хранения данных в процессе выполнения.
+//    Это отличный выбор при передаче данных между активностями.
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putLong("seconds", seconds);
@@ -66,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
         customHandler.post(updateTimerThread);
     }
 
+    //    Runnable же – это кусок кода, который мы пошлем вместо атрибутов сообщения,
+//    и он будет выполнен в потоке, с которым работает Handler.
     private Runnable updateTimerThread = new Runnable() {
         public void run() {
             runTimer(textView);

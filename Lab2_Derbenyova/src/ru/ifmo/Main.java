@@ -5,19 +5,19 @@ import ru.ifmo.task10.MoneyConverter;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-//        main.taskOne();
+        main.taskOne();
 //        main.taskTwo();
 //        main.taskThree();
 //        main.taskFour();
+//        main.taskFive();
 //        main.taskSix();
 //        main.taskSeven();
-        main.taskTen();
+//        main.taskTen();
 
     }
 
@@ -65,7 +65,7 @@ public class Main {
             else
                 System.out.println("Оценка не определена");
         } catch (InputMismatchException e) {
-            System.out.println("Input value isn't a number");
+            System.out.println("Введенное значение не является числом!");
         }
 
     }
@@ -102,7 +102,7 @@ public class Main {
                     break;
             }
         } catch (InputMismatchException e) {
-            System.out.println("Input value isn't a number");
+            System.out.println("Введенное значение не является числом!");
         }
 
     }

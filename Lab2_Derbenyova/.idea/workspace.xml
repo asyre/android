@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc204e1-1912-473c-8dca-c46fb57a49e8" name="Default Changelist" comment="" />
+    <list default="true" id="3dc204e1-1912-473c-8dca-c46fb57a49e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Course_Work/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntentApp_Derbenyova/app/src/main/java/ru/ifmo/intentapp_derbenyova/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentApp_Derbenyova/app/src/main/java/ru/ifmo/intentapp_derbenyova/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2_Derbenyova/META-INF/Lab2_Derbenyova.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ifmo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ifmo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_Derbenyova/app/src/main/java/ru/ifmo/lab3_derbenyova/ListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_Derbenyova/app/src/main/java/ru/ifmo/lab3_derbenyova/ListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_Derbenyova/app/src/main/res/layout/image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_Derbenyova/app/src/main/res/layout/image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimerApp_Derbenyova/app/src/main/java/ru/ifmo/timerapp_derbenyova/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerApp_Derbenyova/app/src/main/java/ru/ifmo/timerapp_derbenyova/MainActivity.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +26,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1REkHY3e1diFoUs0PY2upwM79vX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -45,15 +62,8 @@
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.Main" />
       <module name="Lab2_Derbenyova" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,5 +73,31 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dc204e1-1912-473c-8dca-c46fb57a49e8" name="Default Changelist" comment="" />
+      <created>1571858375138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571858375138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

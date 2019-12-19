@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         findViewById(R.id.button_call).setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent callIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "+7 981 919 27 18"));
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
         findViewById(R.id.button_map).setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Uri gmmIntentUri = Uri.parse("geo:37.7749,-122.4194");

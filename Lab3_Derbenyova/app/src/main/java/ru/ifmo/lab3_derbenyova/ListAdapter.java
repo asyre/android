@@ -16,6 +16,7 @@ import java.util.List;
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ImageHolder> {
 
     private final List<Image> images;
+    private MediaPlayer mp;
 
     ListAdapter(List<Image> images) {
         this.images = images;
@@ -31,12 +32,17 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ImageHolder> {
         }
     }
 
+//    onCreateViewHolder() создает новый объект ViewHolder всякий раз,
+//    когда RecyclerView нуждается в этом. Это тот момент, когда создаётся layout строки списка,
+//    передается объекту ViewHolder, и каждый дочерний view-компонент может быть найден и сохранен.
+
     @NonNull
     @Override
     public ImageHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+//        LayoutInflater – это класс, который умеет из содержимого layout-файла создать View-элемент.
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View itemView = inflater.inflate(R.layout.image, parent, false);
-        final MediaPlayer mp = MediaPlayer.create(inflater.getContext(), R.raw.sound);
+        mp = MediaPlayer.create(inflater.getContext(), R.raw.sound);
         itemView.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -48,6 +54,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ImageHolder> {
         });
         return new ImageHolder(itemView);
     }
+
+//    onBindViewHolder() принимает объект ViewHolder и устанавливает необходимые данные
+//    для соответствующей строки во view-компоненте. Весь код выглядит так.
 
     @Override
     public void onBindViewHolder(@NonNull ImageHolder holder, int position) {
